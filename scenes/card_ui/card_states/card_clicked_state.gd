@@ -7,8 +7,8 @@ func enter() -> void:
 	card_ui.drop_point_detector.monitoring = true
 
 
-func exit() -> void:
-	pass
+#func exit() -> void:
+	#pass
 
 
 func on_input(event: InputEvent) -> void:
@@ -16,14 +16,14 @@ func on_input(event: InputEvent) -> void:
 		transition_requested.emit(self, CardState.State.DRAGGING)
 
 
-func on_gui_input(event: InputEvent) -> void:
-	pass
-
-
-func on_mouse_entered() -> void:
-	pass
-
-
-func on_mouse_exited() -> void:
-	pass
+#func on_gui_input(event: InputEvent) -> void:
+	#pass
+#
+#
+#func on_mouse_entered() -> void:
+	#pass
+#
+#
+#func on_mouse_exited() -> void:
+	#pass
 

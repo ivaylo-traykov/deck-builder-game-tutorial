@@ -11,12 +11,12 @@ func enter() -> void:
 	card_ui.pivot_offset = Vector2.ZERO
 
 
-func exit() -> void:
-	pass
-
-
-func on_input(event: InputEvent) -> void:
-	pass
+#func exit() -> void:
+	#pass
+#
+#
+#func on_input(event: InputEvent) -> void:
+	#pass
 
 
 func on_gui_input(event: InputEvent) -> void:
@@ -25,10 +25,10 @@ func on_gui_input(event: InputEvent) -> void:
 		transition_requested.emit(self, CardState.State.CLICKED)
 
 
-func on_mouse_entered() -> void:
-	pass
-
-
-func on_mouse_exited() -> void:
-	pass
+#func on_mouse_entered() -> void:
+	#pass
+#
+#
+#func on_mouse_exited() -> void:
+	#pass
 
