@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="CharacterStats" load_steps=2 format=3 uid="uid://dsachm0rhxbp2"]
+
+[ext_resource type="Script" path="res://custom_resources/character_stats.gd" id="1_jbibs"]
+
+[resource]
+script = ExtResource("1_jbibs")
+cards_per_turn = 0
+max_mana = 0
+max_health = 1
