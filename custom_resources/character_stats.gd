@@ -28,7 +28,7 @@ func create_instance() -> Resource:
 	instance.health = max_health
 	instance.block = 0
 	instance.reset_mana()
-	instance.deck = instance.startin_deck.duplicate()
+	instance.deck = instance.starting_deck.duplicate()
 	instance.discard = CardPile.new()
 	instance.draw_pile = CardPile.new()
 	return instance
